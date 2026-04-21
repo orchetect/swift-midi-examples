@@ -11,7 +11,7 @@
 		E24932F62F07BFB1006CB1D1 /* DetailsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24932F52F07BFB1006CB1D1 /* DetailsInfoView.swift */; };
 		E2B8BD9E29B308D600B92BDF /* ListsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8BD9D29B308D600B92BDF /* ListsExampleView.swift */; };
 		E2B8BDA429B30B3200B92BDF /* PickersExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8BDA329B30B3200B92BDF /* PickersExampleView.swift */; };
-		E2EB53E22F9728EB007ECC00 /* SwiftMIDIUI in Frameworks */ = {isa = PBXBuildFile; productRef = E2EB53E12F9728EB007ECC00 /* SwiftMIDIUI */; };
+		E2D931B92F972A7400EC2618 /* SwiftMIDIUI in Frameworks */ = {isa = PBXBuildFile; productRef = E2D931B82F972A7400EC2618 /* SwiftMIDIUI */; };
 		E2F1FE7429B2DF5800054467 /* UIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1FE7329B2DF5800054467 /* UIExampleApp.swift */; };
 		E2F1FE7629B2DF5800054467 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1FE7529B2DF5800054467 /* ContentView.swift */; };
 		E2F1FE7829B2DF5A00054467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F1FE7729B2DF5A00054467 /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2EB53E22F9728EB007ECC00 /* SwiftMIDIUI in Frameworks */,
+				E2D931B92F972A7400EC2618 /* SwiftMIDIUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +99,9 @@
 			);
 			name = UIExample;
 			packageProductDependencies = (
-				E2EB53E12F9728EB007ECC00 /* SwiftMIDIUI */,
+				E2D931B82F972A7400EC2618 /* SwiftMIDIUI */,
 			);
-			productName = MIDIKitUI;
+			productName = UIExample;
 			productReference = E2F1FE7029B2DF5800054467 /* UIExample.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -407,7 +407,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E2EB53E12F9728EB007ECC00 /* SwiftMIDIUI */ = {
+		E2D931B82F972A7400EC2618 /* SwiftMIDIUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E2EB53E02F9728EB007ECC00 /* XCRemoteSwiftPackageReference "swift-midi-ui" */;
 			productName = SwiftMIDIUI;

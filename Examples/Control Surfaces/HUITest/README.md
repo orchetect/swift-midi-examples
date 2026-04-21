@@ -6,7 +6,7 @@
 
 ## Overview
 
-This is a debugging workhorse that was used while developing the HUI components of MIDIKit.
+This is a debugging workhorse that was used while developing the HUI components of swift-midi.
 
 Host host and client are modeled, fully functional and essentially feature-complete.
 

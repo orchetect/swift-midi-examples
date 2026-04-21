@@ -1,13 +1,13 @@
 //
 //  Logger.swift
-//  MIDIKit • https://github.com/orchetect/MIDIKit
-//  © 2021-2025 Steffan Andrews • Licensed under MIT License
+//  swift-midi-examples • https://github.com/orchetect/swift-midi-examples
+//  © 2026 Steffan Andrews • Licensed under MIT License
 //
 
 import Foundation
 import os.log
 
 let logger = Logger(
-    subsystem: Bundle.main.bundleIdentifier ?? "com.orchetect.MIDIKit.HUITest",
+    subsystem: Bundle.main.bundleIdentifier ?? "com.orchetect.swift-midi.HUITest",
     category: "General"
 )

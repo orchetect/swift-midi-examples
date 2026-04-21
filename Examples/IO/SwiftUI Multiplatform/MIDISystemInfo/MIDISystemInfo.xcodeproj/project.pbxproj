@@ -364,7 +364,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.orchetect.MIDIKit.MIDISystemInfo${DEVELOPMENT_TEAM}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orchetect.swift-midi.MIDISystemInfo${DEVELOPMENT_TEAM}";
 				PRODUCT_NAME = "MIDI System Info";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -396,7 +396,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.orchetect.MIDIKit.MIDISystemInfo${DEVELOPMENT_TEAM}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orchetect.swift-midi.MIDISystemInfo${DEVELOPMENT_TEAM}";
 				PRODUCT_NAME = "MIDI System Info";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -554,7 +554,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.orchetect.MIDIKit.MIDISystemInfo${DEVELOPMENT_TEAM}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orchetect.swift-midi.MIDISystemInfo${DEVELOPMENT_TEAM}";
 				PRODUCT_NAME = "MIDI System Info";
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
@@ -583,7 +583,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.orchetect.MIDIKit.MIDISystemInfo${DEVELOPMENT_TEAM}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orchetect.swift-midi.MIDISystemInfo${DEVELOPMENT_TEAM}";
 				PRODUCT_NAME = "MIDI System Info";
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;

@@ -1,7 +1,7 @@
 //
 //  StatusGroupSection.swift
-//  MIDIKit • https://github.com/orchetect/MIDIKit
-//  © 2021-2025 Steffan Andrews • Licensed under MIT License
+//  swift-midi-examples • https://github.com/orchetect/swift-midi-examples
+//  © 2026 Steffan Andrews • Licensed under MIT License
 //
 
 import SwiftMIDIControlSurfaces

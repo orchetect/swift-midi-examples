@@ -1,7 +1,7 @@
 //
 //  HUIClientHelper.swift
-//  MIDIKit • https://github.com/orchetect/MIDIKit
-//  © 2021-2025 Steffan Andrews • Licensed under MIT License
+//  swift-midi-examples • https://github.com/orchetect/swift-midi-examples
+//  © 2026 Steffan Andrews • Licensed under MIT License
 //
 
 import Foundation
@@ -34,8 +34,8 @@ extension HUIClientHelper {
 // MARK: - Static
 
 extension HUIClientHelper {
-    nonisolated static let kHUIInputName = "MIDIKit HUI Input"
-    nonisolated static let kHUIOutputName = "MIDIKit HUI Output"
+    nonisolated static let kHUIInputName = "swift-midi HUI Input"
+    nonisolated static let kHUIOutputName = "swift-midi HUI Output"
 }
 
 // MARK: - Lifecycle
