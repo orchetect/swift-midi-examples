@@ -33,10 +33,10 @@ jobs:
       with:
         xcode-version: latest-stable
     
-    - name: HUITest - Resolve Package Dependencies # needed because sometimes xcodebuild fails otherwise
-      run: xcodebuild -project "Examples/Control Surfaces/HUITest/HUITest.xcodeproj" -resolvePackageDependencies | xcbeautify --renderer github-actions && exit ${PIPESTATUS[0]}
-    - name: HUITest - Build
-      run: xcodebuild build -project "Examples/Control Surfaces/HUITest/HUITest.xcodeproj" -scheme "HUITest" -destination "generic/platform=macOS" | xcbeautify --renderer github-actions && exit ${PIPESTATUS[0]}
+    - name: HUI Example - Resolve Package Dependencies # needed because sometimes xcodebuild fails otherwise
+      run: xcodebuild -project "Examples/Control Surfaces/HUI Example/HUI Example.xcodeproj" -resolvePackageDependencies | xcbeautify --renderer github-actions && exit ${PIPESTATUS[0]}
+    - name: HUI Example - Build
+      run: xcodebuild build -project "Examples/Control Surfaces/HUI Example/HUI Example.xcodeproj" -scheme "HUI Example" -destination "generic/platform=macOS" | xcbeautify --renderer github-actions && exit ${PIPESTATUS[0]}
   
   IO-AppKit:
     name: IO - AppKit
