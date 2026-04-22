@@ -1,5 +1,5 @@
 //
-//  Utilities.swift
+//  MaxLengthFormatter.swift
 //  swift-midi-examples • https://github.com/orchetect/swift-midi-examples
 //  © 2026 Steffan Andrews • Licensed under MIT License
 //
@@ -58,27 +58,5 @@ class MaxLengthFormatter: Formatter {
         errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?
     ) -> Bool {
         partialString.count <= maxCharLength
-    }
-}
-
-extension Scene {
-    /// Scene modifier to run arbitrary code when the scene's body is evaluated.
-    func onSceneBody(_ block: @escaping () -> Void) -> some Scene {
-        Task { @MainActor in block() }
-        return self
-    }
-}
-
-extension CGRect {
-    func offset(by off: CGSize) -> CGRect {
-        offsetBy(dx: off.width, dy: off.height)
-    }
-}
-
-extension Comparable {
-    /// Returns the value clamped to the passed range.
-    @_disfavoredOverload @inlinable
-    func clamped(to limits: ClosedRange<Self>) -> Self {
-        min(max(self, limits.lowerBound), limits.upperBound)
     }
 }

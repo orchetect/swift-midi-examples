@@ -30,7 +30,7 @@ struct HUIExampleApp: App {
         .windowResizability(.contentSize)
         .defaultPosition(UnitPoint(x: 0.5, y: 0.4))
         
-        .onSceneBody {
+        .onNotification(NSApplication.didFinishLaunchingNotification) {
             onAppLaunch()
         }
     }
@@ -52,14 +52,5 @@ extension HUIExampleApp {
     private func onAppLaunch() {
         openWindow(id: WindowID.huiHost)
         openWindow(id: WindowID.huiSurface)
-        
-        orderAllWindowsFront()
-    }
-    
-    private func orderAllWindowsFront() {
-        Task { @MainActor in
-            try await Task.sleep(for: .milliseconds(500))
-            NSApp.windows.forEach { $0.makeKeyAndOrderFront(self) }
-        }
     }
 }
