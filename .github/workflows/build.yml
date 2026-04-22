@@ -23,7 +23,7 @@ on:
     - cron: '25 12 * * *'   # once a day @ 12:25pm UTC (5:35am PST)
 
 jobs:
-  Control-Surfaces
+  Control-Surfaces:
     name: Control Surfaces
     runs-on: macos-latest
     timeout-minutes: 20
