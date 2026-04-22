@@ -8,6 +8,6 @@ import Foundation
 import os.log
 
 let logger = Logger(
-    subsystem: Bundle.main.bundleIdentifier ?? "com.orchetect.swift-midi.HUITest",
+    subsystem: Bundle.main.bundleIdentifier ?? "com.orchetect.swift-midi.HUIExample",
     category: "General"
 )

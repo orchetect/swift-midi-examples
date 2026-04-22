@@ -1,5 +1,5 @@
 //
-//  HUITestApp.swift
+//  HUIExampleApp.swift
 //  swift-midi-examples • https://github.com/orchetect/swift-midi-examples
 //  © 2026 Steffan Andrews • Licensed under MIT License
 //
@@ -8,7 +8,7 @@ import SwiftMIDIIO
 import SwiftUI
 
 @main
-struct HUITestApp: App {
+struct HUIExampleApp: App {
     @Environment(\.openWindow) private var openWindow
     
     @State private var midiHelper = MIDIHelper(start: true)
@@ -38,7 +38,7 @@ struct HUITestApp: App {
 
 // MARK: - Static
 
-extension HUITestApp {
+extension HUIExampleApp {
     var huiHostWidth: CGFloat { 300 }
     var huiHostHeight: CGFloat { 600 }
     
@@ -48,7 +48,7 @@ extension HUITestApp {
 
 // MARK: - ViewModel
 
-extension HUITestApp {
+extension HUIExampleApp {
     private func onAppLaunch() {
         openWindow(id: WindowID.huiHost)
         openWindow(id: WindowID.huiSurface)
