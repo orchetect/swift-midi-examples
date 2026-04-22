@@ -14,6 +14,7 @@
 		E27E3FA025A6E5C700F4B78E /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27E3F9F25A6E5C700F4B78E /* Audio.swift */; };
 		E28B23332ED6860A0089C0E7 /* SwiftRadix in Frameworks */ = {isa = PBXBuildFile; productRef = E28B23322ED6860A0089C0E7 /* SwiftRadix */; };
 		E29EF039267BF71B00282F94 /* DunneAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = E29EF038267BF71B00282F94 /* DunneAudioKit */; };
+		E2B36D682F9871250043F93D /* SwiftMIDIIO in Frameworks */ = {isa = PBXBuildFile; productRef = E2B36D672F9871250043F93D /* SwiftMIDIIO */; };
 		E2BE847F268BC6680034F62C /* SwiftMIDISync Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BE847E268BC6680034F62C /* SwiftMIDISync Extensions.swift */; };
 		E2EB53DF2F972864007ECC00 /* SwiftMIDISync in Frameworks */ = {isa = PBXBuildFile; productRef = E2EB53DE2F972864007ECC00 /* SwiftMIDISync */; };
 		E2F71ED42758ED1E006254C0 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F71ED32758ED1E006254C0 /* Log.swift */; };
@@ -50,6 +51,7 @@
 				E29EF039267BF71B00282F94 /* DunneAudioKit in Frameworks */,
 				E28B23332ED6860A0089C0E7 /* SwiftRadix in Frameworks */,
 				E2EB53DF2F972864007ECC00 /* SwiftMIDISync in Frameworks */,
+				E2B36D682F9871250043F93D /* SwiftMIDIIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +119,7 @@
 				E28B23322ED6860A0089C0E7 /* SwiftRadix */,
 				E2094BBD2ED9551100B9DAB1 /* SwiftTimecode */,
 				E2EB53DE2F972864007ECC00 /* SwiftMIDISync */,
+				E2B36D672F9871250043F93D /* SwiftMIDIIO */,
 			);
 			productName = MTCExample;
 			productReference = E2FAC4DA257884E000A6DD31 /* MTCExample.app */;
@@ -151,6 +154,7 @@
 				E28B23312ED6860A0089C0E7 /* XCRemoteSwiftPackageReference "swift-radix" */,
 				E2094BBC2ED9551100B9DAB1 /* XCRemoteSwiftPackageReference "swift-timecode" */,
 				E2EB53DD2F972864007ECC00 /* XCRemoteSwiftPackageReference "swift-midi-sync" */,
+				E2B36D662F9871250043F93D /* XCRemoteSwiftPackageReference "swift-midi-io" */,
 			);
 			productRefGroup = E2FAC4DB257884E000A6DD31 /* Products */;
 			projectDirPath = "";
@@ -430,6 +434,14 @@
 				minimumVersion = 5.6.2;
 			};
 		};
+		E2B36D662F9871250043F93D /* XCRemoteSwiftPackageReference "swift-midi-io" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/swift-midi-io";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		E2EB53DD2F972864007ECC00 /* XCRemoteSwiftPackageReference "swift-midi-sync" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/orchetect/swift-midi-sync";
@@ -455,6 +467,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E29EF037267BF71B00282F94 /* XCRemoteSwiftPackageReference "DunneAudioKit" */;
 			productName = DunneAudioKit;
+		};
+		E2B36D672F9871250043F93D /* SwiftMIDIIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2B36D662F9871250043F93D /* XCRemoteSwiftPackageReference "swift-midi-io" */;
+			productName = SwiftMIDIIO;
 		};
 		E2EB53DE2F972864007ECC00 /* SwiftMIDISync */ = {
 			isa = XCSwiftPackageProductDependency;
