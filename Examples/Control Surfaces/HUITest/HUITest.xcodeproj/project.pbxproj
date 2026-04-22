@@ -10,6 +10,7 @@
 		E20F9E9B2F971D50001678E1 /* SwiftMIDIControlSurfaces in Frameworks */ = {isa = PBXBuildFile; productRef = E20F9E9A2F971D50001678E1 /* SwiftMIDIControlSurfaces */; };
 		E24860272F971DC9008ECA8C /* SwiftMIDIUI in Frameworks */ = {isa = PBXBuildFile; productRef = E24860262F971DC9008ECA8C /* SwiftMIDIUI */; };
 		E261699428E9272400DEA000 /* Controls in Frameworks */ = {isa = PBXBuildFile; productRef = E261699328E9272400DEA000 /* Controls */; };
+		E2B36E142F9871C10043F93D /* SwiftMIDIIO in Frameworks */ = {isa = PBXBuildFile; productRef = E2B36E132F9871C10043F93D /* SwiftMIDIIO */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 				E24860272F971DC9008ECA8C /* SwiftMIDIUI in Frameworks */,
 				E20F9E9B2F971D50001678E1 /* SwiftMIDIControlSurfaces in Frameworks */,
 				E261699428E9272400DEA000 /* Controls in Frameworks */,
+				E2B36E142F9871C10043F93D /* SwiftMIDIIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,7 @@
 				E261699328E9272400DEA000 /* Controls */,
 				E20F9E9A2F971D50001678E1 /* SwiftMIDIControlSurfaces */,
 				E24860262F971DC9008ECA8C /* SwiftMIDIUI */,
+				E2B36E132F9871C10043F93D /* SwiftMIDIIO */,
 			);
 			productName = HUISurface;
 			productReference = E284EBB226AE018F0016AA0F /* HUITest.app */;
@@ -116,6 +119,7 @@
 				E261699228E9272400DEA000 /* XCRemoteSwiftPackageReference "Controls" */,
 				E20F9E992F971D50001678E1 /* XCRemoteSwiftPackageReference "swift-midi-controlsurfaces" */,
 				E24860252F971DC9008ECA8C /* XCRemoteSwiftPackageReference "swift-midi-ui" */,
+				E2B36E122F9871C10043F93D /* XCRemoteSwiftPackageReference "swift-midi-io" */,
 			);
 			productRefGroup = E284EBB326AE018F0016AA0F /* Products */;
 			projectDirPath = "";
@@ -377,6 +381,14 @@
 				minimumVersion = 1.1.4;
 			};
 		};
+		E2B36E122F9871C10043F93D /* XCRemoteSwiftPackageReference "swift-midi-io" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/swift-midi-io";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -394,6 +406,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E261699228E9272400DEA000 /* XCRemoteSwiftPackageReference "Controls" */;
 			productName = Controls;
+		};
+		E2B36E132F9871C10043F93D /* SwiftMIDIIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2B36E122F9871C10043F93D /* XCRemoteSwiftPackageReference "swift-midi-io" */;
+			productName = SwiftMIDIIO;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
