@@ -1,8 +1,8 @@
 ![swift-midi-examples](Images/swift-midi-examples-banner.png)
 
-# swift-midi-examples
+# SwiftMIDI Examples
 
-Example code for [swift-midi](https://github.com/orchetect/swift-midi) and its extensions.
+Example code for [SwiftMIDI](https://github.com/orchetect/swift-midi) and its extensions.
 
 ## Compatibility
 
@@ -10,7 +10,7 @@ Currently all example projects are built for Apple platforms, but the sample cod
 
 ## Documentation & Support
 
-For documentation and support see the main [swift-midi](https://github.com/orchetect/swift-midi) repository.
+For documentation and support see the main [SwiftMIDI](https://github.com/orchetect/swift-midi) repository.
 
 ## Author
 
